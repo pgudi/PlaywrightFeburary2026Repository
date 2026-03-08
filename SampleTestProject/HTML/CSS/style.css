@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+p.para1 {
+    color: blue;
+    font-size:
+        15px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+p.para2 {
+    color: green;
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+}
