@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function evenNumbers(){
+            document.write("display Even Number :"+"<br>")
+            for(let i=10;i<=30;i++){
+                if(i % 2 ==0 ){
+                    document.write("Even Numebr :"+i+"<br>")
+                }
+            }
+        }
+
+        function oddNumbers(){
+            document.write("display Odd Number :"+"<br>")
+            for(let i=40;i<=60;i++){
+                if(i % 2 ==1 ){
+                    document.write("Odd Numebr :"+i+"<br>")
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Show Even Number" onclick="evenNumbers()"> <br> <br>
+    <input type="button" value="Show Odd Number" onclick="oddNumbers()">
+</body>
+</html>

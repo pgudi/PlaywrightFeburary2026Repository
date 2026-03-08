@@ -15,6 +15,5 @@ test("Login into The Application", async({page})=>{
     await page.locator("//img[@class='oxd-userdropdown-img']").click()
     await page.locator("//a[normalize-space()='Logout']").click()
     await expect(page).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-    
 
 })

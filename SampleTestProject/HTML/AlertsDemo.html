@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showAlert(){
+            alert("Welcome to PLaywright Learning!!")
+        }
+
+        function showConfirm(){
+             let val=confirm("Do you want to Delete Customer?")
+             document.write("Message from Confirm :"+val)
+        }
+
+         function showPrompt(){
+             let val=prompt("Enter the Name of the Customer:")
+             document.write("Prompt Output  :"+val)
+        }
+    </script>
+</head>
+<body>
+    <h2>Sample Alerts</h2>
+    <input type="button" id="alerts" value="Execute Alerts" onclick="showAlert()" />
+
+    <br><br>
+    <h2>Confirm Alerts</h2>
+    <input type="button" id="confirm" value="Execute Confirm" onclick="showConfirm()">
+
+    <br><br>
+    <h2>Prompt Alerts</h2>
+    <input type="button" id="prompt" value="Execute prompt" onclick="showPrompt()">
+</body>
+</html>
