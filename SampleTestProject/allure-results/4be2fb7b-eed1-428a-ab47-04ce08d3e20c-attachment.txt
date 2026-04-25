@@ -1,0 +1,1 @@
+Alert Message :Do you want to Delete the Customer Record?

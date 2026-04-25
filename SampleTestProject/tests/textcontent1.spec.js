@@ -18,5 +18,5 @@ test("Fetch Text Content from WebElements ", async({page})=>{
     const errorContent = await page.locator(':text("Invalid credentials")').textContent()
     console.log("Error Message :"+errorContent);
     
-    await expect(errorContent).toContain("Invalid")
+    await expect(errorContent).toContain("Invalid123")
 })
