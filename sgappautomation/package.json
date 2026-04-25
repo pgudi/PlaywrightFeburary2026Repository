@@ -1,0 +1,20 @@
+{
+  "name": "sgappautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "executeframework": "npx cucumber-js --exit --tags @Execute --format html:reports/sgapplication-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.1"
+  }
+}
