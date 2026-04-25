@@ -1,0 +1,17 @@
+[
+    {
+        "username": "Santosh",
+        "coursename": "Research and Science",
+        "cityname": "Dallas"
+    },
+    {
+        "username": "Adithi",
+        "coursename": "Accountant",
+        "cityname": "California"
+    },
+    {
+        "username": "Srinivasa",
+        "coursename": "Sales and Services",
+        "cityname": "New York"
+    }
+]
